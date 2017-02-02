@@ -1,5 +1,4 @@
 name: White Paper
-markdown: redcarpet
 highlighter: rouge
 #paginate: 8
 description:     Jekyll theme for Programmers
