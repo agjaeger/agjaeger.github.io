@@ -3,19 +3,37 @@ layout: default
 
 title: "About"
 
-categories: 
 permalink: /about/
 ---
 
-Finally after much ado, I am moving Gotchacode to Octopress. There are various reasons for doing it.
-I am listing some of them here:
+### Basic Details
+- Name: Alex Jaeger
+- Age: 20
+- Email: agjaeger@ualr.edu
+- Job: Graduate Assistant at the [UALR EAC](http://eac-ualr.org)
+- Education: Currently pursuing a Masters in Information Science
+- Objective: Find a Computer Graphics Internship for Summer 2017
 
-- There is absolutely no good theme if you are running a technical blog.
-- Syntax highlighting is pathetic.
-- I can't write post in my text editor.
-- There is no source control.
+### Technical Details
+- Favorite Language: C++
+- Current Area of Research: Computer Graphics (specifically VR and AR)
 
-But I will miss blogspot too. The integrated analytics was best in class and so was the SEO.
+### Who Am I On The Inside?
+When I am not at work, I enjoy spending time with my girlfriend, playing 
+video games and doing small projects for my portfolio. The current games 
+I play are Overwatch and Runescape.
 
+I am curious, I like thinking about tough problems and finding a 
+solution that is refined, and appropriate.
 
-![image-title-here](/assets/images/cat.jpg){:class="img-responsive"}
+### Current Employment
+I am currently employed as a Graduate Assistant for the University of 
+Arkansas's [Emerging Analytics Center](http://eac-ualr.org). I have 
+two mentors [Dr. Carolina Cruz-Neira](https://en.wikipedia.org/wiki/Carolina_Cruz-Neira) 
+and [Dr. Dirk Reiners](http://www.dirkreiners.com/). I am currently 
+working on two projects: CAVE in a Box and for the
+[DoE Seeds](https://seedscenter.uark.edu/). 
+
+Outside of my official projects, I enjoy spending time working on learning 
+Computer Graphics via OpenGL and Virtual Reality Devices such as the 
+Oculus Rift and HTC Vive.
