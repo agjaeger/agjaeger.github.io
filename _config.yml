@@ -25,5 +25,10 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
+sass:
+  sass_dir: assets/_sass
+
+include: ['_pages']
+
 # Links to include in top navigation
 # For external links add external: true
