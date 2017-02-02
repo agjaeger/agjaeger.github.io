@@ -1,18 +1,12 @@
-<aside>
-	<div class="container">
-		<nav>
-			<ul>
-				{% for page in site.pages %} 
-					{% if page.title %}
-						<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-		</nav>
-	</div>
-</aside>
-
-<header>
-	<h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
-</header>
-
+<div class="header-container">
+  <header>
+      <ul class="nav">
+        <!--Change the  URL here if working on an absolute domain-->
+        <li id="homelink">Alexander Jaeger</li>
+        
+        <li><a href="/">Blog</a></li>
+        <li><a href="/">Portfolio</a></li>
+        <li><a href="/">About</a></li>
+      </ul>
+  </header>
+</div>
