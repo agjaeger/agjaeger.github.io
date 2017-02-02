@@ -2,7 +2,7 @@
 layout: post
 title: "Migrating To Octopress"
 date: "2014-02-13"
-categories: 
+categories: project
 ---
 
 Finally after much ado, I am moving Gotchacode to Octopress. There are various reasons for doing it.

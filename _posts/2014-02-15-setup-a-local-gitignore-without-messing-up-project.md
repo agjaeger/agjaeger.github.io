@@ -3,7 +3,7 @@ layout: post
 title: "Setup A Local Gitignore Without Messing Up Project"
 date: 2014-02-15 07:51:16 +0530
 comments: true
-categories: 
+categories: project
 ---
 
 A lot of us use Git for Version Control. If you have used git, you must be aware of .gitignore files. It contains the list of all file and directories you want git to ignore so that it would nevet get committed. But if you work in multi person team. You might not have liberty to change the projects gitignore. What to do then?

@@ -3,7 +3,7 @@ layout: post
 title: "Simple State Machine Framework in c#"
 date: 2014-02-26 11:37:18 +0530
 comments: true
-categories: 
+categories: blog
 ---
 
 This blog post covers a very simple, light weight, yet flexible state machine framework in C# .Net.

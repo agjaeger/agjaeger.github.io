@@ -3,7 +3,7 @@ layout: post
 title: "How To Use Facebook Page Albums As Image Source in Django"
 date: 2014-02-14 20:39:36 +0530
 comments: true
-categories: 
+categories: project
 ---
 
 Lot of companies use Facebook for marketing their products. Facebook is mainly built around images. In fact the whole ecosystem is fueled by images. In order to scale for the vast user base of Facebook, they have done a really good job. 
