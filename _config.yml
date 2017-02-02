@@ -3,7 +3,7 @@ highlighter: rouge
 #paginate: 8
 description:     Jekyll theme for Programmers
 intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
-logo:             logo.png
+logo: logo.png
 disqus_shortname:
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
@@ -12,10 +12,8 @@ disqus_shortname:
 # Owner/author information
 owner:
   name:           <your-name-here>
-  avatar:         <avatar-image-link>
   email:          <your-email-address>
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
   github:
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
