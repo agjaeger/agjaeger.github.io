@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Setup A Local Gitignore Without Messing Up Project"
-date: 2014-02-15 07:51:16 +0530
-comments: true
+date: 2014-02-15
 categories: project
 ---
 

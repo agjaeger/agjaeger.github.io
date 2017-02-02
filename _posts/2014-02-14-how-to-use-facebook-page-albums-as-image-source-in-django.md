@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How To Use Facebook Page Albums As Image Source in Django"
-date: 2014-02-14 20:39:36 +0530
-comments: true
+date: 2014-02-14 20:39:36
 categories: project
 ---
 

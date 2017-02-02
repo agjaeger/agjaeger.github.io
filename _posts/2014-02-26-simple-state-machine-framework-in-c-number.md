@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Simple State Machine Framework in c#"
-date: 2014-02-26 11:37:18 +0530
-comments: true
+date: 2014-02-26
 categories: blog
 ---
 

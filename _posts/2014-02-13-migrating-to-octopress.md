@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Migrating To Octopress"
-date: "2014-02-13"
+date: 2014-02-13
 categories: project
 ---
 

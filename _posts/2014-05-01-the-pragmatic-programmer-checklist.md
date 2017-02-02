@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Pragmatic Programmer Checklist"
-date: 2014-05-01 14:05:26 +0530
+date: 2014-05-01
 categories: blog
 ---
 
