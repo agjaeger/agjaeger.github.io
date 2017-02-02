@@ -1,24 +1,31 @@
-White Paper
-============
 
-White Paper is a jekyll theme for tech blogs. It is clean and simple with good semantic
-structure.
+# agjaeger.github.io
 
-![white-paper image](https://i.cloudup.com/rmZjQ83vRh-2000x2000.png)
+This is the git repository for my website.
 
-## Usage:
+## Structure
+* assets/			TLD for asset files
+  * posts/			Post Specific Assets
+  * site/			Non Post Specific Assets
+* _posts/			Posts
+* _pages/			Non Post Pages (excluding index)
+* _includes/		HTML snippets to include
+* _layouts			HTML layouts for liquid
 
-- Install Jekyll from here(http://jekyllrb.com/)
-- Fork the project.
-- Change the fields in _config.yml
-- Change the links in header.html.s
+## Includes
+* footer.html		Footer of each page
+* header.html		Header of each page
+* head.html			Head of each page (contains links and stylesheets)
+* image				Snippet for easier image embedding
 
-Test the website live while editing the code:
+## Layouts
+* default.html		Simple, head -> header -> content -> footer
+* post.html			Specific for posts
 
-```sh
-jekyll server --watch
-```
+## TODO
+* Convert css to scss
+* Asset pipeline currently works for images, but lets get js to work as well
+* Remove unnecessary code (e.g. disqus and twitter integration)
 
-## Issues:
 
-Report issues or feature request [here](https://github.com/vinitkumar/white-paper/issues).
+
