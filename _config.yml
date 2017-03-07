@@ -1,34 +1,18 @@
 name: White Paper
 highlighter: rouge
-#paginate: 8
 description: Alexander Jaeger
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
+intro: A blog covering my work.
 logo: logo.png
-disqus_shortname:
-# url: http://gotchacode.com
-#Comment out url when working locally to resolve base urls correctly
-#url:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
-  email:          <your-email-address>
+  name:           Alex Jaeger
+  email:          agjaeger@ualr.edu
   # Social networking links used in footer. Update and remove as you like.
   github:
   stackexchange:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 sass:
   sass_dir: assets/_sass
 
 include: ['_pages']
-
-# Links to include in top navigation
-# For external links add external: true
