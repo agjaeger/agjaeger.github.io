@@ -5,6 +5,7 @@ layout: default
 <div class="listing">
 	{% for post in site.posts %}
 		{% unless post.draft %}
+			{% unless post.categories contains 'slides' %}
 
 			<div class="post other link">
 				<h2><a href="{{post.url}}">{{ post.title }}</a></h2>
@@ -15,6 +16,7 @@ layout: default
 				<p>{{ post.excerpt }}</p>
 			</div>
 			
+			{% endunless %}
 		{% endunless %}
 	{% endfor %}
 </div>
