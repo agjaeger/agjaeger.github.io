@@ -1,0 +1,6 @@
+{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/images/{{ include.name }}{% endcapture %}
+
+<section 
+	data-background-image="{{ site.url }}/assets/posts/{{ imagePath }}"
+	data-background-size="100%"
+></section>

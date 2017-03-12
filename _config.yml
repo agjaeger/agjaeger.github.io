@@ -12,3 +12,6 @@ owner:
 
 include: ['_pages', 'assets']
 
+markdown: kramdown
+kramdown:
+  input: GFM
