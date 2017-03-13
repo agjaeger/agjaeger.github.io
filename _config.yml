@@ -3,8 +3,8 @@ highlighter: rouge
 description: Alexander Jaeger
 intro: A blog covering my work.
 
-#url: http://www.alexjaeger.org/
-url: http://localhost:4000/
+url: http://www.alexjaeger.org/
+#url: http://localhost:4000/
 
 owner:
   name:           Alex Jaeger
