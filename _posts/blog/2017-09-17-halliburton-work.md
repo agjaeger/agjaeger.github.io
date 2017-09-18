@@ -4,7 +4,7 @@ title: Summer 2017 Halliburton Intern
 date: 2017-09-17 20:45:00
 categories: blog
 
-draft: true
+draft: false
 ---
 
 Hey guys! Its been a while since my last update, sorry about that. I hope 
