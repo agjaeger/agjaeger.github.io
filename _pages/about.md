@@ -13,6 +13,7 @@ permalink: /about/
 - Job: Graduate Assistant at the [UALR EAC](http://eac-ualr.org)
 - Education: Currently pursuing a Masters in Information Science
 - Objective: Find a Computer Graphics Internship for Summer 2017
+- Resume: [Not Guaranteed To Be Up To Date](https://github.com/agjaeger/resume/blob/master/resume.pdf)
 
 ### Technical Details
 - Favorite Language: C++
