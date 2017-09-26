@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SteamVR HDK Results
+title: TechStart Panelist
 date: 2017-03-11 13:51:00
 categories: blog
 
