@@ -1,6 +1,6 @@
 ---
 layout: slides
-title: TechStart Panel Slides
+title: Techstart Panel Slides
 date: 2017-09-25 13:51:00
 categories: slides
 theme: black
