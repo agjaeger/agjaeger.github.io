@@ -1,7 +1,7 @@
 ---
 layout: slides
-title: SteamVR HDK Results Slides
-date: 2017-03-11 13:51:00
+title: TechStart Panel Slides
+date: 2017-09-25 13:51:00
 categories: slides
 theme: black
 
