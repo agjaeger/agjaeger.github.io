@@ -4,7 +4,7 @@ title: SteamVR HDK Results
 date: 2017-03-11 13:51:00
 categories: blog
 
-draft: true
+draft: false
 ---
 
 Panelist for the 2017 TechStart Campaign to better Computer Science Education in 
