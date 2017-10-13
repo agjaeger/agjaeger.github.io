@@ -3,11 +3,10 @@ layout: post
 title: SteamVR HDK Results
 date: 2017-03-11 13:51:00
 categories: blog
+short_description: Our first iteration of success for custom SteamVR / Vive Hardware
 
 draft: false
 ---
-
-Our first iteration of success for custom SteamVR / Vive Hardware
 
 {% include iframe  iframePath='/slides/2017/03/11/steamvr-hdk-results-slides.html' %}
 

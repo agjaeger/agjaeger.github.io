@@ -12,12 +12,12 @@ permalink: /about/
 - Email: agjaeger@ualr.edu
 - Job: Graduate Assistant at the [UALR EAC](http://eac-ualr.org)
 - Education: Currently pursuing a Masters in Information Science
-- Objective: Find a Computer Graphics Internship for Summer 2017
+- Objective: Find a Computer Graphics Internship for Summer 2018
 - CV: [Not Guaranteed To Be Up To Date](https://github.com/agjaeger/resume/blob/master/resume.pdf)
 
 ### Technical Details
-- Favorite Language: C++
-- Current Area of Research: Computer Graphics (specifically VR and AR)
+- Favorite Language: C++ and Python
+- Current Area of Research: Immersive Computer Graphics (such as Virtual and Augmented Reality)
 
 ### Who Am I On The Inside?
 When I am not at work, I enjoy spending time with my girlfriend, playing 

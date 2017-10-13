@@ -12,6 +12,23 @@ owner:
 
 include: ['_pages', 'assets']
 
+sass:
+  style: compressed
+
+theme_mode: 'standard' # choices are 'dark', 'standard', and 'markdown'
+
+navigation:
+  - text: Home
+    url: /
+  - text: Blog
+    url: /blog
+  - text: Projects
+    url: /projects
+  - text: Interesting Links
+    url: /coollinks
+  - text: About Me
+    url: /about
+    
 markdown: kramdown
 kramdown:
   input: GFM

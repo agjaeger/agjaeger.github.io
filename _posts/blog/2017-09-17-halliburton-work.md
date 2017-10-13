@@ -3,6 +3,7 @@ layout: post
 title: Summer 2017 Halliburton Intern
 date: 2017-09-17 20:45:00
 categories: blog
+short_description: Summary of 2017 Summer Internship at Halliburton
 
 draft: false
 ---

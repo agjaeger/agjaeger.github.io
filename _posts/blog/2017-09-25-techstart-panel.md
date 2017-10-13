@@ -3,12 +3,10 @@ layout: post
 title: TechStart Panelist
 date: 2017-09-25 13:51:00
 categories: blog
+short_description: Panelist for the 2017 TechStart Campaign to better Computer Science Education in Arkansas
 
 draft: false
 ---
-
-Panelist for the 2017 TechStart Campaign to better Computer Science Education in 
-Arkansas
 
 {% include iframe  iframePath='/slides/2017/09/25/techstart-panel-slides.html' %}
 
