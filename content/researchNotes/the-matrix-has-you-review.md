@@ -1,8 +1,8 @@
 title: The Matrix Has You - Notes
 slug: the-matrix-has-you-notes
 category: research notes
-date: 2017-07-02
-modified: 2017-07-02
+date: 2017-02-07
+modified: 2017-02-07
 
 ## Citation
 
