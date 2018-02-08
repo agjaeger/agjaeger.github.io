@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 *.lock
 .asset-cache
+pelican-env/*
+output/

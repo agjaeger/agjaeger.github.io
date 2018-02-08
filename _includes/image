@@ -1,3 +1,0 @@
-{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/images/{{ include.name }}{% endcapture %}
-
-<img src="/assets/posts/{{ imagePath }}"/>

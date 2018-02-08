@@ -1,0 +1,8 @@
+
+
+SITE STRUCTURE
+	Makefile - Script to build site
+	develop-server.sh - Script to run development server
+	pelicanconf.py - Settings
+	publishconf.py - Settings for production
+	content/ - location for markup files
