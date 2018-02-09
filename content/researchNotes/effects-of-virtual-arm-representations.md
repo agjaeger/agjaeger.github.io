@@ -3,6 +3,7 @@ slug: the-effects-of-virtual-arm-representations
 category: research notes
 date: 2017-02-07
 modified: 2017-02-07
+summary: Explores the relationship between the virtual arm representations in respect to senses of agency of ownership.
 
 ## Citation
 

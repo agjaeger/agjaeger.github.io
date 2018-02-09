@@ -3,6 +3,8 @@ slug: the-matrix-has-you-notes
 category: research notes
 date: 2017-02-07
 modified: 2017-02-07
+summary: This paper explores time manipulation using two different classes of cues: environmental and manipulating user's body movement. 
+tags: evaluation slow motion time perception virtual reality virtual reality 
 
 ## Citation
 

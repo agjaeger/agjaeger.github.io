@@ -3,6 +3,7 @@ slug: custom-transformation-axes
 category: research notes
 date: 2017-02-08
 modified: 2017-02-08
+summary: This paper outlines a user study regarding several methods of positioning virtual objects using a Vive including the defacto 6DOF method, a method using virtual widgets to represent local coordinate axes, and lastly their novel solution which uses a gesture based system to restrict movement.
 
 ## Citation
 

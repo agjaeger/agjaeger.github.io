@@ -3,6 +3,8 @@ slug: surround-screen-virtual-reality
 category: research notes
 date: 2017-02-08
 modified: 2017-02-08
+summary: This paper describes the CAVE system in detail and demonstrates that projection technology applied to virtual-reality goals can produce a system that matches the quality of existing devices.
+tags:
 
 ## Citation
 
