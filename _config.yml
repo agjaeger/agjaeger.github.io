@@ -10,7 +10,7 @@ title: Alex Jaeger
 email: agjaeger@ualr.edu
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.agjaeger.com" # the base hostname & protocol for your site
+url: "http://www.agjaeger.github.io" # the base hostname & protocol for your site
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
 
@@ -18,3 +18,6 @@ plugins: [jekyll-paginate, kramdown]
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
