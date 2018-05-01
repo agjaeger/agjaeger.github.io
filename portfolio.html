@@ -1,0 +1,22 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+category: "portfolio"
+---
+<h2>all</h2>
+<hr>
+<ol>
+	{% for post in site.posts %}
+		{% if post.tag == "project" %}
+			<li>		
+				<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+					{{ post.date | date: "%b %-d, %Y" }}
+				</time>
+				<a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+					{{ post.title }}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
