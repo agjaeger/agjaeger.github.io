@@ -17,7 +17,7 @@ category: posts
 					<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
 						{{ post.date | date: "%b %-d, %Y" }}
 					</time>
-					<a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+					<a class='postLink' href="{{ sitePage.url | prepend: site.baseurl }}{{post.url}}">
 						{{ post.title }}
 					</a>
 				</li>
@@ -35,7 +35,7 @@ category: posts
 				<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
 					{{ post.date | date: "%b %-d, %Y" }}
 				</time>
-				<a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+				<a class='postLink' href="{{ sitePage.url | prepend: site.baseurl }}{{post.url}}">
 					{{ post.title }}
 				</a>
 			</li>

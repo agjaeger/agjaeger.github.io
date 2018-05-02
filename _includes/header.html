@@ -14,7 +14,7 @@
 <div class="wrapper">
 	<center>
 		<div class="trigger site-navigation">
-			<a class="page-link" href="{{site.url}}{{site.baseurl}}">HOME</a>
+			<a class="page-link" href="{{ sitePage.url | prepend: site.baseurl }}">HOME</a>
 			{% for sitePage in site.pages %}
 				{% if sitePage.title %}
 					<span class="exclamationMark">/</span>

@@ -18,7 +18,7 @@ layout: default
 			<br>
 			
 			<div class="postTitle">
-				<a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+				<a class='postLink' href="{{ sitePage.url | prepend: site.baseurl }}{{post.url}}">{{post.title}}</a>
 			</div>
 			
 			<div class="postExt">
