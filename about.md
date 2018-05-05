@@ -1,155 +1,42 @@
 ---
 layout: page
 title : About
+date: 2018-05-04
 permalink: /about/
 ---
 
-<h2>Gravity</h2>
-<p>Minimal, text based, liberal Jekyll theme<br>for sharing your awesome ideas.</p>
-<br>
-<center><p ><strong><span class="manual">Get up and running with</span> Gravity</strong></p></center>
+{% include image name="mirkoAndI.jpg" caption="My cousin Mirko and I at our family reunion" width="50%" %}
+
 <br>
 
-{% highlight c++ %}
-float sSphere(glm::vec3 point, float r) {
-	return glm::length(point) - r;
-}
-{% endhighlight %}
+My name is Alex Jaeger and I suck at introductions. I am just a nerd that 
+was interested in video games as a kid and that grew into learning more 
+about computer graphics.
 
+Im still in college right now, so I am trying to find time in between classes 
+and working to explore my interests. I like to watch movies, experience new things, 
+and figure out what Im doing in life. 
 
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>Posting</strong>
-  </div>
-<p>  <div class="manual-content">
+With any hope, I wish to work for a national lab doing research into 
+virtual/augmented reality or computer graphics in general.
 
-```
-  - Create a .markdown file inside <code class="highlighter-rouge">_posts</code> folder.<br>
-  - Name the file according to the format YY-MM-DD-[short name for your post].<br>  <code>2016-03-30-i-love-design.markdown</code><br>
-  - Write the <a href="jekyll">Front Matter</a> and content in the file.<br>
-  <div class="example">
-    <span class='manual'>FORMAT</span><BR>
-    <pre>---
-```
+This website is to help me keep track of my life and lessons learned as I 
+progress through my career.
 
-layout: post | default | page
-title:  String<span class="hint"> Post Title</span>
-date:   Time Stamp
-categories: String | Array of Strings<span class="hint"> Category / Categories </span>
-\---</pre>
+If you have any thoughts (good or bad), please drop me a line at 
+agjaeger@ualr.edu. I would appreciate it :)
 
-```
-  </div>
-  <div class="example">
+## Quick Resume Overview
+<hr>
+### Experience
+* Intel, Computer Graphics Intern, Summer 2018
+* Halliburton, Virtual Reality Intern, Summer 2017
+* UA Little Rock Emerging Analytics Center, Graduate Assistant, Fall 2014 - Current
 
-    <pre>---
-```
+### Education
+* Masters Degree, Information Science, 2017-Current
+* Bachelors Degree, Computer Science, 2014-2017
 
-layout: post
-title:  "The One with the Blackout"
-date:   2016-03-30 19:45:31 +0530
-categories: ["life", "friends"]
-\---</pre>
-
-```
-  </div>
-```
-
-  </div>
-</p>
-</div>
-<br>
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>Create Pages</strong>
-  </div>
-<p>  <div class="manual-content">
-
-```
-  - Create a .md file in the root directory.<br>
-  - Name the file with the desired page link name.<br>  <code>about.md</code><br><code>design.md</code><br>
-  - Write the <a href="jekyll">Front Matter</a> and content in the file.
-  <div class="example">
-    <span class='manual'>FORMAT</span><BR>
-    <pre>---
-```
-
-layout: page
-title: String <span class="hint">Title of the webpage</span>
-permalink: / String / <span class="hint">Permalink for the webpage</span>
-tagline: String <span class="hint">Optional Gravity Feature : Tagline for the page</span>
-\---</pre>
-
-```
-  </div>
-  <div class="example">
-
-    <pre>---
-```
-
-layout: page
-title:  "Science"
-permalink:   /science/
-tagline : "Humanity is overrated."
-\---</pre>
-
-```
-  </div>
-```
-
-  </div>
-</p>
-</div>
-<br>
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>Create Archives/ Category Pages</strong><br>
-</div><br>
-<div class="archiveIntro">
-  <p>
-    Introducing <strong>Archive Pages</strong>.<br></p>
-  <span class="archive-intro">  You can display a list of all the post corresponding to a particular category on a standalone Page using the <code>'archive'</code> layout.
-</span>
-</div>
 <br>
 
-<p>  <div class="manual-content">
-
-```
-  - Create a .md file in the root directory.<br>
-  - Name the file. Preferred name will be the name of the category<br>  <code>life.md</code><br>
-  - Write the <a href="jekyll">Front Matter</a> and content in the file.
-  <div class="example">
-    <span class='manual'>FORMAT</span><BR>
-<pre>---
-```
-
-layout: archive<span class="hint"> Archive Page Layout</span>
-title: String <span class="hint">Title of the webpage</span>
-permalink: / String / <span class="hint">Permalink for the webpage</span>
-tagline: String <span class="hint"> Tagline for the page</span>
-category : String <span class="hint"> Name of the category of which the page will show posts.</span>
-\---</pre>
-
-```
-  </div>
-  <div class="example">
-
-    <pre>---
-```
-
-layout: archive
-title:  "Design"
-permalink : "Design"
-category: "design"
-tagline: "It's all about perception."
-\---</pre>
-
-```
-</div><br>
-```
-
-  </div>
-</p>
-</div>
-
+{% include image name="cat.jpg" caption="Just me and a cat I found" width="50%" %}
