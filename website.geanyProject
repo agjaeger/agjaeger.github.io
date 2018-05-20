@@ -27,14 +27,9 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=6
-FILE_NAME_0=2411;C++;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fopengl-experiments%2Fsphere-marcher%2Fsrc%2Fcamera.cpp;0;4
-FILE_NAME_1=504;C++;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fopengl-experiments%2Fsphere-marcher%2Fsrc%2Fmain.cpp;0;4
-FILE_NAME_2=2606;C++;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fopengl-experiments%2Fsphere-marcher%2Fsrc%2Futility.cpp;0;4
-FILE_NAME_3=15;C++;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fopengl-base%2Finclude%2Fcube.hpp;0;4
-FILE_NAME_4=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fopengl-base%2Fsrc%2Fcube.cpp;0;4
-FILE_NAME_5=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fopengl-experiments%2Fsphere-marcher%2Fsrc%2Ffsquad.cpp;0;4
-FILE_NAME_6=14;C++;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fopengl-experiments%2Fsphere-marcher%2Finclude%2Ffsquad.hpp;0;4
+current_page=0
+FILE_NAME_0=36;Markdown;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fagjaeger.github.io%2F_posts%2F2018-05-18-sc-trip.md;0;4
+FILE_NAME_1=0;Markdown;0;EUTF-8;1;1;1;%2Fhome%2Falex%2FProjects%2Fagjaeger.github.io%2F_posts%2F2018-05-04-media.md;0;4
 
 [VTE]
 last_dir=/home/alex
