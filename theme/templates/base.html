@@ -71,10 +71,17 @@
                 
           
           {% if LINKS or (DISPLAY_PAGES_ON_MENU and PAGES) or ICONS %}
-		  <ul class="list-inline">
+		  <ul class="list-inline">	  
+			  {% for page in pages %}
+                    <li class="list-inline-item" style="float:left;"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+			  {% endfor %}
+			  
+			  |
+			  
 		      {% for cat, null in categories %}
                     <li class="list-inline-item"><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
 			  {% endfor %}
+
           </ul>
           {% endif %}          
         </div>

@@ -5,3 +5,5 @@ _site
 .asset-cache
 pelican-env/*
 output/
+env/*
+__pycache__/*
