@@ -40,3 +40,7 @@ DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
 
 THEME = "theme"
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["jinja2content", "sitemap"]
+
