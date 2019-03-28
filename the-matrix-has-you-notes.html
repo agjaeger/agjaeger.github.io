@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>The Matrix Has You - Notes | Alexander Jaeger
+</title>
+  <link rel="canonical" href="./the-matrix-has-you-notes.html">
+
+
+
+  <link rel="stylesheet" href="./theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="./theme/css/style.css">
+
+
+<meta name="description" content="This paper explores time manipulation using two different classes of cues: environmental and manipulating user's body movement.">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="title"><a href=".">Alexander Jaeger</a></h1>
+                
+          
+		  <ul class="list-inline">	  
+                    <li class="list-inline-item" style="float:left;"><a href="./pages/about.html">About</a></li>
+			  
+			  |
+			  
+                    <li class="list-inline-item"><a href="./category/conference-calendar.html">conference calendar</a></li>
+                    <li class="list-inline-item"><a href="./category/research-notes.html">research notes</a></li>
+
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>The Matrix Has You - Notes
+</h1>
+      <hr>
+<article class="article">
+  <header>
+    <ul class="list-inline">
+      <li class="list-inline-item text-muted" title="2017-02-07T00:00:00-06:00">
+        <i class="fa fa-clock-o"></i>
+        Tue 07 February 2017
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-folder-open-o"></i>
+        <a href="./category/research-notes.html">research notes</a>
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-user-o"></i>
+        <a href="./author/alexander-jaeger.html">Alexander Jaeger</a>      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-files-o"></i>
+        <a href="./tag/evaluation-slow-motion-time-perception-virtual-reality-virtual-reality.html">#evaluation slow motion time perception virtual reality virtual reality</a>      </li>
+    </ul>
+  </header>
+  <div class="content">
+    <h2>Citation</h2>
+<p>Michael Rietzler, Florian Geiselhart, and Enrico Rukzio. 2017. The matrix has you: realizing slow motion in full-body virtual reality. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (VRST '17). ACM, New York, NY, USA, Article 2, 10 pages. </p>
+<h2>Notes</h2>
+<p>This paper explores time manipulation using two different classes of cues:
+environmental and manipulating user's body movement. </p>
+<p>The problems with traditional methods of time manipulation are a problem because the user has no natural understanding of it. We can't just delay the user's movements because that will be percieved as lag. Also, we can't just slowly decrease the velocity of the joints in the virtual body because then the two avatars will be out of sync. Lastly, we can't modify the user's body without using movment-limiting devices (such as haptics)</p>
+<p>They describe three different methods using low-pass filters to support the notion of time manipulation</p>
+<ol>
+<li>Simple - The virtual avatar moves as fast as possible up to a maximum to keep up with the real avatar.</li>
+<li>Restricted - This uses the simple low-pass method however it also takes into consideration the real avatar's current velocity. This gives the real avatar more control, for example if the real avatar didnt move using the simple low-pass then the virtual avatar would still move, however it wouldnt with this approach.</li>
+<li>Simple with Forecast - This method is the simple low-pass method however it is 
+only applied to a semi-transparent version of the body. The virtual avatar is in sync with the real avatar aside from this semi-transparent version.</li>
+</ol>
+<p>They tested these three different methods using a user study of 16 and tested with 
+the following conditions</p>
+<ol>
+<li>Control Realtime</li>
+<li>Control Slow motion</li>
+<li>Permanent Simple Low-Pass</li>
+<li>Permanent Restricted Low-Pass</li>
+<li>Permanent Simple Low-Pass with Forecast</li>
+<li>Alternating Simple Low-Pass</li>
+<li>Alternating Restricted Low-Pass</li>
+<li>Alternating Simple Low-Pass with Forecast</li>
+</ol>
+<p>This paper concludes that environment cues did not play a signficant role in percieved time.</p>
+  </div>
+</article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+       <ul class="col-sm-6 list-inline">
+          <li class="list-inline-item"><a href="./authors.html">Authors</a></li>
+          <li class="list-inline-item"><a href="./archives.html">Archives</a></li>
+          <li class="list-inline-item"><a href="./categories.html">Categories</a></li>
+          <li class="list-inline-item"><a href="./tags.html">Tags</a></li>
+        </ul>
+        <p class="col-sm-6 text-sm-right text-muted">
+          Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a> / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
