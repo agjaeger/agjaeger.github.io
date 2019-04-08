@@ -1,3 +1,3 @@
-pushd output
+pushd ..\output
 python -m pelican.server
 popd
