@@ -7,7 +7,7 @@
 
     <ol>
         {% for article in articles %}
-            <li class="article-listing">
+            <li class="article-listing" style="padding-top:0.5em;">
                 <h4 style="margin:0px;" class="article-title">
                     <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
                 </h4>
@@ -21,9 +21,6 @@
                 </div>
             </li>
 
-            {% if not loop.last %}
-                <hr>
-            {% endif %}
         {% endfor %}
     </ol>
 {% endfor %}

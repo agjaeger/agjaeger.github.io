@@ -28,7 +28,7 @@ LINKS = (('blog', '/'),
          ('interesting links', 'coollinks/'),
          ('research notes', 'researchnotes/'),
          ('about me', 'aboutme/'),
-		)
+    )
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -43,4 +43,5 @@ THEME = "theme"
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["jinja2content", "sitemap"]
+STATIC_PATHS = ['images']
 

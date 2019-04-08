@@ -10,7 +10,6 @@ body {
   max-width: 800px;
   padding: 1em;
   line-height: 1.4;
-  text-align: justify;
 }
 
 a {
@@ -101,4 +100,25 @@ blockquote::after {
 
 span.visited {
   color: #941352;
+}
+
+body {
+   padding:0;
+   height:100%;
+}
+.root-container {
+   min-height:100%;
+   position:relative;
+}
+
+.main {
+   padding-bottom:60px;   /* Height of the footer */
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+
+  padding-top:20px;
+  height:60px;   /* Height of the footer */
 }

@@ -12,19 +12,26 @@
 </head>
 
 <body>
+  <div class="root-container">
     <header class="header">
-        <h1 class="title">
-            <a href="{{ SITEURL }}">{{ SITENAME }}</a>
-        </h1>
+      <h1 class="title">
+        <a href="{{ SITEURL }}">{{ SITENAME }}</a>
+      </h1>
     </header>
 
     <div class="main">
-        <div class="container">
-            <h1>{% block page_header %}{% endblock %}</h1>
-            <hr>
+      <div class="container">
+        <h1>{% block page_header %}{% endblock %}</h1>
+        <hr>
 
-            {% block content %}{% endblock %}
-        </div>
+        {% block content %}{% endblock %}
+      </div>
     </div>
+
+    <div class="footer">
+      <hr>
+      Send me your thoughts at <strong>agjaeger@ualr.edu</strong>
+    </div>
+  </div>
 </body>
 </html>
