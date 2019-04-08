@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Alexander Jaeger</title>
+    <link rel="stylesheet" href="./theme/css/site.css">
+
+    <meta name="description" content="The beginnings of learning Optix">
+    <link rel="stylesheet" href="./theme/css/article.css">
+</head>
+
+<body>
+  <div class="root-container">
+    <header class="header">
+      <h1 class="title">
+        <a href=".">Alexander Jaeger</a>
+      </h1>
+    </header>
+
+    <div class="main">
+      <div class="container">
+        <h1>    Learning Optix Raytracing Part 1: Compiling OptixHello
+</h1>
+        <hr>
+
+    <article class="article">
+        <header>
+            <ul class="article-data-ul">
+                <li class="article-data-li" title="2019-04-08T00:00:00-05:00">
+                    Mon 08 April 2019
+                </li>
+
+                <li class="article-data-li">
+                    <a href="./category/micro-adventures.html">micro adventures</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <p>I wanted to get the optixHello project compiling and running on my machine.
+I havent sat down and learned CMake yet, so typically I create a new Visual Studio
+project and begin this micro-adventure</p>
+<p>Slowly but surely, I will create a pathtracer with Optix.</p>
+<h1>Download The Dependencies</h1>
+<ol>
+<li>CUDA (I am using version 10)</li>
+<li>Optix SDK (I am using version 6)</li>
+<li>FreeGLUT</li>
+<li>GLEW</li>
+<li>sutil (located in the SDK examples, this will have to be compiled or included in the project)</li>
+</ol>
+<h1>Setting up the Visual Studio Project</h1>
+<p>Create a new Visual Studio Project with the CUDA Runtime Template<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will automatically compile CUDA C/C++ source files</p>
+<p>Copy the source files from the optixHello demo in the SDK examples.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Should be two files draw_color.cu and optixHello.cpp</p>
+<p>We need to modify some Visual Studio project propeties to correctly compile .cu to ptx<br/>
+  1. C/C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Additional Include Directories: Add the includes for the Optix SDK and the library dependencies<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Add NOMINMAX to the list of preprocessor definitions<br/>
+  2. CUDA C/C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Compiler Output: Change the filename to something you will remember and the extension should be ptx<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Additional Include Directories: Add the includes for the Optix SDK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Set Keep Prepprocessed Files to Yes (--keep)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * NVCC Compilation Type should be Generate.ptx file (--ptx)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Turn Debug Information to No in Device and Host<br/>
+  3. Linker<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Additional Dependencies should be added with the dependencies' library files plus glu32.lib and opengl32.lib</p>
+<p>One Important Note:
+  In order to use Optix, you have to read the .ptx file then pass the string into Optix to be used. If you rely on
+  sutil.h, there is a default file name that it looks for. Change the compiler output filename (in CUDA C/C++ Properties) to reflect this</p>
+<h1>Optional: Replace the sutil.h dependency</h1>
+<p>I really disliked the reliance on sutil, its just so thick... So I worked towards the removal.</p>
+<p>In order to compile and run OptixHello without sutil, we need to replace the functions that the demo
+relies on.
+  * initGlut
+  * displayBufferGlut
+  * getPtxString</p>
+<p>It was straightforward enough to create a seperate c++ namespace with just these functions</p>
+<h1>Result So Far</h1>
+<p><img
+  src="./images/learning-optix-p1-1.png"
+  width="100%"/></p>
+        </div>
+    </article>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <hr>
+      Send me your thoughts at <strong>agjaeger@ualr.edu</strong>
+    </div>
+  </div>
+</body>
+</html>
