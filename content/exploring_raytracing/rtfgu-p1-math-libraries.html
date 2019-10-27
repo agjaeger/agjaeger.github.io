@@ -1,18 +1,16 @@
-title: Working through "Raytracing From the Ground Up" Part 1: Introduction
-slug: rtgu-p1-math-libaries
-category: exploring raytracing
-date: 2019-04-08
-modified: 2019-04-08
-summary: 
+
+
+            **Working through "Raytracing From the Ground Up"**
+                          **Part 1: Introduction**
 
 To learn Raytracing, I am working through Raytracing from the Ground Up by Kevin Suffern.
 
+First we start with a few math headers, these are quite standard for any graphics
+applicaiton. In this book, he requests we seperate the use cases of Vector3 into
+individual classes. This way its more correct modeling of a point, vector, and normal,
+since it prevents any form of misuse.
 
-
-First, we begin by defining a few math classes and using stb_image_write to output a PNG.
-
-
-```cpp
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~cpp
 namespace math {
     struct Normal3 {
         double x = 0.0;
@@ -24,22 +22,21 @@ namespace math {
     Vector3 operator+ (const Vector3& vec, const Normal3& normalA);
     Vector3 operator+ (const Normal3& normalA, const Vector3& vec);
 
-    double operator* (const Normal3& normal, const Vector3& vec);    
+    double operator* (const Normal3& normal, const Vector3& vec);
     double operator* (const Vector3& vec, const Normal3& normal);
     Normal3 operator* (const Normal3& normal, double scalar);
     Normal3 operator* (double scalar, const Normal3& normal);
-    
+
     std::ostream& operator<<(std::ostream& os, const Normal3& normal);
-    
+
     double sqlength (const Vector3& vec);
     double length (const Vector3& vec);
 
     Normal3 negate (const Normal3& norm);
-    
+
     double dot (const Vector3& vecA, const Vector3& vecB);
     Vector3 cross (const Vector3& vecA, const Vector3& vecB);
 };
-
 
 namespace math {
     struct Point3 {
@@ -51,12 +48,12 @@ namespace math {
     Point3 operator+ (const Point3& pointA, const Vector3& vecB);
     Point3 operator+ (const Vector3& vecA, const Point3& pointB);
     Vector3 operator- (const Point3& pointA, const Point3& pointB);
-    
+
     double distance (const Point3& pointA, const Point3& pointB);
     double sqDistance (const Point3& pointA, const Point3& pointB);
-    
+
     std::ostream& operator<<(std::ostream& os, const Vector3& vec);
-    
+
     double sqlength (const Vector3& vec);
     double length (const Vector3& vec);
 };
@@ -71,14 +68,22 @@ namespace math {
     Vector3 operator+ (const Vector3& vecA, const Vector3& vecB);
     Vector3 operator- (const Vector3& vecA, const Vector3& vecB);
     Vector3 operator* (const Vector3& vec, double scalar);
-    Vector3 operator* (double scalar, const Vector3& vec);    
+    Vector3 operator* (double scalar, const Vector3& vec);
     Vector3 operator/ (const Vector3& vec, double scalar);
     std::ostream& operator<<(std::ostream& os, const Vector3& vec);
-    
+
     double sqlength (const Vector3& vec);
     double length (const Vector3& vec);
 
     double dot (const Vector3& vecA, const Vector3& vecB);
     Vector3 cross (const Vector3& vecA, const Vector3& vecB);
 };
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<!-- Markdeep: -->
+<link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/latex.css?">
+<style> body { max-width:750px; width:750px; } </style>
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="markdeep.min.js" charset="utf-8"></script>
+<script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script>
+<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
